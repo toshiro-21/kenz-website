@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wild Thyme Spice Co. — Handcrafted Spices, Farm to Jar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="Wild Thyme Spice Co. home">
+        <img src="resources/images/logo.svg" alt="Wild Thyme Spice Co." width="160" height="38">
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#products" class="nav-link">Shop</a></li>
+          <li><a href="#story" class="nav-link">Our Story</a></li>
+          <li><a href="#recipes" class="nav-link">Recipes</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button type="button" class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 01 — Hero -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="hero-overlay"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <p class="hero-label">✦ Handcrafted Since 2018 ✦</p>
+        <h1 id="hero-heading" class="hero-title">Handcrafted Spices, Farm to Jar</h1>
+        <p class="hero-subtext">Small-batch blends from organic farms. No fillers, no shortcuts — just honest flavour that transforms every meal.</p>
+        <div class="hero-actions">
+          <a href="#products" class="btn btn-primary">Shop Now</a>
+          <a href="#story" class="btn btn-ghost">Our Story</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 02 — Brand Story -->
+    <section class="section section-story" id="story" aria-labelledby="story-heading">
+      <div class="story-texture" aria-hidden="true"></div>
+      <div class="container story-grid">
+        <div class="story-content" data-animate data-delay="0">
+          <span class="story-quote-mark" aria-hidden="true">"</span>
+          <h2 id="story-heading" class="story-heading">Our Story</h2>
+          <p class="story-lead">"We believe the best meals start with the best ingredients."</p>
+          <p>Wild Thyme began in a sun-drenched kitchen when we couldn't find spices that tasted as alive as the ones we remembered from our grandparents' garden. So we decided to make them ourselves.</p>
+          <p>Today we work directly with growers in India, Morocco, and the Mediterranean. Every batch is roasted, ground, and packed by hand in our workshop — ensuring you get the same care we'd give our own family table.</p>
+          <p>No bulk warehouses. No stale shelves. Just fresh, full-bodied flavour, one jar at a time.</p>
+          <hr class="story-divider">
+        </div>
+        <div class="story-media" data-animate data-delay="1">
+          <img src="resources/images/story.jpg" alt="Handcrafted spices and ingredients in our workshop" width="600" height="400" class="story-image">
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 03 — Featured Products -->
+    <section class="section section-products" id="products" aria-labelledby="products-heading">
+      <div class="container">
+        <h2 id="products-heading" class="section-title" data-animate>Featured Blends</h2>
+        <div class="products-grid">
+          <article class="product-card" data-animate data-delay="0">
+            <div class="product-card-image-wrap">
+              <img src="resources/images/products/signature-blend.jpg" alt="Signature Blend spice jar" width="320" height="320" class="product-card-image">
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-title">Signature Blend</h3>
+              <p class="product-card-desc">Our best-selling mix of smoked paprika, cumin, and a touch of orange. Perfect for grilling and roasted vegetables.</p>
+              <a href="#products" class="product-card-link">Explore →</a>
+            </div>
+          </article>
+          <article class="product-card" data-animate data-delay="1">
+            <div class="product-card-image-wrap">
+              <img src="resources/images/products/berbere.jpg" alt="Berbere spice blend" width="320" height="320" class="product-card-image">
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-title">Berbere</h3>
+              <p class="product-card-desc">Warm, complex Ethiopian-inspired blend with fenugreek, cardamom, and chili. Ideal for stews and lentils.</p>
+              <a href="#products" class="product-card-link">Explore →</a>
+            </div>
+          </article>
+          <article class="product-card" data-animate data-delay="2">
+            <div class="product-card-image-wrap">
+              <img src="resources/images/products/zaatar.jpg" alt="Za'atar blend" width="320" height="320" class="product-card-image">
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-title">Za'atar</h3>
+              <p class="product-card-desc">Toasted sesame, sumac, and wild thyme. Drizzle with olive oil and spread on flatbread or roasted roots.</p>
+              <a href="#products" class="product-card-link">Explore →</a>
+            </div>
+          </article>
+          <article class="product-card" data-animate data-delay="3">
+            <div class="product-card-image-wrap">
+              <img src="resources/images/products/garam-masala.jpg" alt="Garam Masala spice blend" width="320" height="320" class="product-card-image">
+            </div>
+            <div class="product-card-body">
+              <h3 class="product-card-title">Garam Masala</h3>
+              <p class="product-card-desc">Freshly ground cinnamon, clove, and black cardamom. The soul of countless curries and chai.</p>
+              <a href="#products" class="product-card-link">Explore →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 04 — Why Us / USP -->
+    <section class="section section-usp" id="usp" aria-labelledby="usp-heading">
+      <div class="usp-grain" aria-hidden="true"></div>
+      <div class="container">
+        <h2 id="usp-heading" class="section-title section-title-light" data-animate>Why Wild Thyme</h2>
+        <div class="usp-grid">
+          <div class="usp-item" data-animate data-delay="0">
+            <span class="usp-icon" aria-hidden="true">🌿</span>
+            <h3 class="usp-title">100% Organic</h3>
+            <p class="usp-desc">Sourced from certified organic farms. No pesticides, no compromise.</p>
+          </div>
+          <div class="usp-item" data-animate data-delay="1">
+            <span class="usp-icon" aria-hidden="true">✋</span>
+            <h3 class="usp-title">Hand-Packed</h3>
+            <p class="usp-desc">Every jar is filled and sealed by hand in our workshop for maximum freshness.</p>
+          </div>
+          <div class="usp-item" data-animate data-delay="2">
+            <span class="usp-icon" aria-hidden="true">🌍</span>
+            <h3 class="usp-title">Direct from Growers</h3>
+            <p class="usp-desc">We work directly with farmers — fair prices for them, better flavour for you.</p>
+          </div>
+          <div class="usp-item" data-animate data-delay="3">
+            <span class="usp-icon" aria-hidden="true">📦</span>
+            <h3 class="usp-title">Plastic-Free Packaging</h3>
+            <p class="usp-desc">Recyclable glass jars and compostable labels. Good for the planet, not just the palate.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 05 — Recipe Inspiration -->
+    <section class="section section-recipes" id="recipes" aria-labelledby="recipes-heading">
+      <div class="container">
+        <h2 id="recipes-heading" class="section-title section-title-underline" data-animate>Recipe Inspiration</h2>
+        <div class="recipes-grid">
+          <a href="#recipes" class="recipe-tile" data-animate data-delay="0">
+            <img src="resources/images/recipes/recipe-roots.jpg" alt="Roasted Roots with Za'atar" width="400" height="300" class="recipe-tile-image">
+            <span class="recipe-tile-caption">Roasted Roots with Za'atar</span>
+          </a>
+          <a href="#recipes" class="recipe-tile" data-animate data-delay="1">
+            <img src="resources/images/recipes/recipe-lentil.jpg" alt="Berbere Lentil Soup" width="400" height="300" class="recipe-tile-image">
+            <span class="recipe-tile-caption">Berbere Lentil Soup</span>
+          </a>
+          <a href="#recipes" class="recipe-tile" data-animate data-delay="2">
+            <img src="resources/images/recipes/recipe-chicken.jpg" alt="Grilled Chicken & Signature Blend" width="400" height="300" class="recipe-tile-image">
+            <span class="recipe-tile-caption">Grilled Chicken & Signature Blend</span>
+          </a>
+          <a href="#recipes" class="recipe-tile" data-animate data-delay="3">
+            <img src="resources/images/recipes/recipe-chai.jpg" alt="Garam Masala Chai" width="400" height="300" class="recipe-tile-image">
+            <span class="recipe-tile-caption">Garam Masala Chai</span>
+          </a>
+          <a href="#recipes" class="recipe-tile" data-animate data-delay="4">
+            <img src="resources/images/recipes/recipe-flatbread.jpg" alt="Mediterranean Flatbread" width="400" height="300" class="recipe-tile-image">
+            <span class="recipe-tile-caption">Mediterranean Flatbread</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 06 — Testimonials -->
+    <section class="section section-testimonials" aria-labelledby="testimonials-heading">
+      <div class="testimonials-grain" aria-hidden="true"></div>
+      <div class="container">
+        <h2 id="testimonials-heading" class="section-title" data-animate>What People Say</h2>
+        <div class="testimonials-grid">
+          <blockquote class="testimonial-card" data-animate data-delay="0">
+            <span class="testimonial-quote-mark" aria-hidden="true">"</span>
+            <p class="testimonial-text">I've never tasted spices this fresh. The Berbere transformed my weekly lentil soup into something I actually look forward to.</p>
+            <footer class="testimonial-author">— Maya Chen, <cite>Toronto</cite></footer>
+          </blockquote>
+          <blockquote class="testimonial-card" data-animate data-delay="1">
+            <span class="testimonial-quote-mark" aria-hidden="true">"</span>
+            <p class="testimonial-text">Finally, a company that cares about where their spices come from. The packaging is beautiful and the flavour is unmatched.</p>
+            <footer class="testimonial-author">— James Okonkwo, <cite>London</cite></footer>
+          </blockquote>
+          <blockquote class="testimonial-card" data-animate data-delay="2">
+            <span class="testimonial-quote-mark" aria-hidden="true">"</span>
+            <p class="testimonial-text">Wild Thyme's Signature Blend is now a permanent fixture on our grill. Our guests always ask what we use.</p>
+            <footer class="testimonial-author">— Elena Vasquez, <cite>Barcelona</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 07 — Newsletter / CTA Banner -->
+    <section class="section section-newsletter" id="contact" aria-labelledby="newsletter-heading">
+      <div class="newsletter-grain" aria-hidden="true"></div>
+      <div class="container newsletter-inner">
+        <h2 id="newsletter-heading" class="newsletter-title" data-animate>Join the Flavour Journey</h2>
+        <p class="newsletter-body" data-animate data-delay="1">Get recipes, farm stories, and early access to new blends. No spam — just good taste.</p>
+        <form class="newsletter-form" id="newsletter-form" data-animate data-delay="2" novalidate>
+          <label for="newsletter-email" class="visually-hidden">Your email address</label>
+          <input type="email" id="newsletter-email" name="email" placeholder="Your email address" required class="newsletter-input" autocomplete="email">
+          <button type="submit" class="btn btn-newsletter">Subscribe</button>
+        </form>
+        <p class="newsletter-success visually-hidden" id="newsletter-success" role="status">Thanks for joining! Check your inbox for a welcome note.</p>
+      </div>
+    </section>
+
+    <!-- Section 08 — Footer -->
+    <footer class="site-footer" role="contentinfo">
+      <div class="footer-motif" aria-hidden="true">
+        <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M24 4c-4 4-8 8-8 12s4 8 8 8 8-4 8-8-4-8-8-12z" stroke="currentColor" stroke-width="1.5" fill="none" opacity="0.6"/>
+          <circle cx="24" cy="12" r="3" fill="currentColor" opacity="0.4"/>
+        </svg>
+      </div>
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <img src="resources/images/logo.svg" alt="Wild Thyme Spice Co." width="160" height="38" class="footer-logo">
+          <p class="footer-tagline">Handcrafted Spices, Farm to Jar</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <ul class="footer-nav-list">
+            <li><a href="#products">Shop</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#recipes">Recipes</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="footer-contact">
+          <p><a href="mailto:hello@wildthymespice.com">hello@wildthymespice.com</a></p>
+          <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+          <p>123 Mill Lane, Countryside, CO 80123</p>
+          <div class="footer-social">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" aria-label="Pinterest">Pinterest</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2025 Wild Thyme Spice Co. All rights reserved.</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>

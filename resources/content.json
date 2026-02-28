@@ -1,0 +1,117 @@
+{
+  "company": {
+    "name": "Wild Thyme Spice Co.",
+    "tagline": "Handcrafted Spices, Farm to Jar",
+    "foundedYear": "2018",
+    "accentLabel": "✦ Handcrafted Since 2018 ✦"
+  },
+  "hero": {
+    "subtext": "Small-batch blends from organic farms. No fillers, no shortcuts — just honest flavour that transforms every meal."
+  },
+  "brandStory": {
+    "quote": "\"We believe the best meals start with the best ingredients.\"",
+    "heading": "Our Story",
+    "paragraphs": [
+      "Wild Thyme began in a sun-drenched kitchen when we couldn't find spices that tasted as alive as the ones we remembered from our grandparents' garden. So we decided to make them ourselves.",
+      "Today we work directly with growers in India, Morocco, and the Mediterranean. Every batch is roasted, ground, and packed by hand in our workshop — ensuring you get the same care we'd give our own family table.",
+      "No bulk warehouses. No stale shelves. Just fresh, full-bodied flavour, one jar at a time."
+    ]
+  },
+  "products": [
+    {
+      "id": "blend-signature",
+      "name": "Signature Blend",
+      "description": "Our best-selling mix of smoked paprika, cumin, and a touch of orange. Perfect for grilling and roasted vegetables.",
+      "image": "signature-blend.jpg"
+    },
+    {
+      "id": "blend-berbere",
+      "name": "Berbere",
+      "description": "Warm, complex Ethiopian-inspired blend with fenugreek, cardamom, and chili. Ideal for stews and lentils.",
+      "image": "berbere.jpg"
+    },
+    {
+      "id": "blend-zaatar",
+      "name": "Za'atar",
+      "description": "Toasted sesame, sumac, and wild thyme. Drizzle with olive oil and spread on flatbread or roasted roots.",
+      "image": "zaatar.jpg"
+    },
+    {
+      "id": "blend-garam",
+      "name": "Garam Masala",
+      "description": "Freshly ground cinnamon, clove, and black cardamom. The soul of countless curries and chai.",
+      "image": "garam-masala.jpg"
+    }
+  ],
+  "usp": [
+    {
+      "icon": "🌿",
+      "title": "100% Organic",
+      "description": "Sourced from certified organic farms. No pesticides, no compromise."
+    },
+    {
+      "icon": "✋",
+      "title": "Hand-Packed",
+      "description": "Every jar is filled and sealed by hand in our workshop for maximum freshness."
+    },
+    {
+      "icon": "🌍",
+      "title": "Direct from Growers",
+      "description": "We work directly with farmers — fair prices for them, better flavour for you."
+    },
+    {
+      "icon": "📦",
+      "title": "Plastic-Free Packaging",
+      "description": "Recyclable glass jars and compostable labels. Good for the planet, not just the palate."
+    }
+  ],
+  "recipes": [
+    { "name": "Roasted Roots with Za'atar", "image": "recipe-roots.jpg" },
+    { "name": "Berbere Lentil Soup", "image": "recipe-lentil.jpg" },
+    { "name": "Grilled Chicken & Signature Blend", "image": "recipe-chicken.jpg" },
+    { "name": "Garam Masala Chai", "image": "recipe-chai.jpg" },
+    { "name": "Mediterranean Flatbread", "image": "recipe-flatbread.jpg" }
+  ],
+  "testimonials": [
+    {
+      "quote": "I've never tasted spices this fresh. The Berbere transformed my weekly lentil soup into something I actually look forward to.",
+      "author": "Maya Chen",
+      "location": "Toronto"
+    },
+    {
+      "quote": "Finally, a company that cares about where their spices come from. The packaging is beautiful and the flavour is unmatched.",
+      "author": "James Okonkwo",
+      "location": "London"
+    },
+    {
+      "quote": "Wild Thyme's Signature Blend is now a permanent fixture on our grill. Our guests always ask what we use.",
+      "author": "Elena Vasquez",
+      "location": "Barcelona"
+    }
+  ],
+  "newsletter": {
+    "heading": "Join the Flavour Journey",
+    "body": "Get recipes, farm stories, and early access to new blends. No spam — just good taste.",
+    "placeholder": "Your email address"
+  },
+  "footer": {
+    "tagline": "Handcrafted Spices, Farm to Jar",
+    "nav": [
+      { "label": "Shop", "href": "#products" },
+      { "label": "Our Story", "href": "#story" },
+      { "label": "Recipes", "href": "#recipes" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "contact": {
+      "email": "hello@wildthymespice.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Mill Lane, Countryside, CO 80123"
+    },
+    "social": [
+      { "label": "Instagram", "href": "https://instagram.com", "icon": "instagram" },
+      { "label": "Pinterest", "href": "https://pinterest.com", "icon": "pinterest" },
+      { "label": "Facebook", "href": "https://facebook.com", "icon": "facebook" }
+    ],
+    "copyright": "© 2025 Wild Thyme Spice Co. All rights reserved."
+  }
+}

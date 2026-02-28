@@ -1,0 +1,59 @@
+/* ============================================================
+   DESIGN TOKENS — Edit this file to retheme the entire site
+   ============================================================ */
+
+:root {
+
+  /* --- Colours (loaded from resources/colors.json) --- */
+  --color-primary:       #C45C3E;
+  --color-primary-hover: #D97A5F;
+  --color-secondary:     #6B7B5C;
+  --color-accent:        #D4A84B;
+  --color-bg-page:       #F5F0E8;
+  --color-bg-card:       #E8E0D4;
+  --color-bg-dark:       #2C2419;
+  --color-text-primary:  #3D3429;
+  --color-text-muted:    #6B5D4F;
+  --color-text-light:    #F2EDE6;
+  --color-border:        #C4B8A8;
+
+  /* --- Typography (loaded from resources/fonts/) --- */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Lora', serif;
+  --font-accent: 'Caveat', cursive;
+
+  /* --- Font Sizes (fluid 300px–4000px viewport) --- */
+  --text-xs:    clamp(9px,  9px + 4 * (100vw - 300px) / 3700, 13px);
+  --text-sm:    clamp(11px, 11px + 5 * (100vw - 300px) / 3700, 15px);
+  --text-base:  clamp(14px, 14px + 6 * (100vw - 300px) / 3700, 18px);
+  --text-md:    clamp(16px, 16px + 8 * (100vw - 300px) / 3700, 22px);
+  --text-lg:    clamp(20px, 20px + 12 * (100vw - 300px) / 3700, 28px);
+  --text-xl:    clamp(28px, 28px + 18 * (100vw - 300px) / 3700, 42px);
+  --text-2xl:   clamp(32px, 32px + 32 * (100vw - 300px) / 3700, 64px);
+
+  /* --- Spacing Scale (fluid 300px–4000px) --- */
+  --space-xs:   clamp(6px,  6px + 4 * (100vw - 300px) / 3700, 10px);
+  --space-sm:   clamp(12px, 12px + 8 * (100vw - 300px) / 3700, 20px);
+  --space-md:   clamp(20px, 20px + 16 * (100vw - 300px) / 3700, 36px);
+  --space-lg:   clamp(40px, 40px + 32 * (100vw - 300px) / 3700, 72px);
+  --space-xl:   clamp(56px, 56px + 48 * (100vw - 300px) / 3700, 104px);
+
+  /* --- Border Radius --- */
+  --radius-sm:  6px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+  --radius-full: 999px;
+
+  /* --- Shadows --- */
+  --shadow-card: 0 2px 16px rgba(0,0,0,0.10);
+  --shadow-hover: 0 6px 28px rgba(0,0,0,0.16);
+
+  /* --- Textures (paths to resources/images/textures/) --- */
+  --texture-grain: url('../resources/images/textures/grain.svg');
+  --texture-kraft: url('../resources/images/textures/kraft.svg');
+  --texture-wood: url('../resources/images/textures/wood.svg');
+
+  /* --- Transitions --- */
+  --transition-fast: 0.18s ease;
+  --transition-base: 0.28s ease;
+}

@@ -1,0 +1,13 @@
+{
+  "primary": "#C45C3E",
+  "primaryHover": "#D97A5F",
+  "secondary": "#6B7B5C",
+  "accent": "#D4A84B",
+  "bgPage": "#F5F0E8",
+  "bgCard": "#E8E0D4",
+  "bgDark": "#2C2419",
+  "textPrimary": "#3D3429",
+  "textMuted": "#6B5D4F",
+  "textLight": "#F2EDE6",
+  "border": "#C4B8A8"
+}
