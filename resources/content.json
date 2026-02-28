@@ -17,82 +17,89 @@
       "No bulk warehouses. No stale shelves. Just fresh, full-bodied flavour, one jar at a time."
     ]
   },
-  "products": [
+  "productCategories": [
     {
-      "id": "blend-signature",
-      "name": "Signature Blend",
-      "description": "Our best-selling mix of smoked paprika, cumin, and a touch of orange. Perfect for grilling and roasted vegetables.",
-      "image": "signature-blend.jpg"
+      "id": "whole-spices",
+      "name": "Whole Spices",
+      "items": [
+        { "id": "ws1", "name": "Cardamom", "desc": "Premium green pods with intense aroma.", "image": "ws-cardamom.png" },
+        { "id": "ws2", "name": "Cloves", "desc": "Hand-picked Zanzibar cloves, full of oil.", "image": "ws-cloves.png" },
+        { "id": "ws3", "name": "Nutmeg", "desc": "Whole seeds for fresh grating.", "image": "ws-nutmeg.png" },
+        { "id": "ws4", "name": "Pepper", "desc": "Bold black peppercorns from Malabar.", "image": "ws-pepper.png" },
+        { "id": "ws5", "name": "Cinnamon", "desc": "Ceylon cinnamon sticks, sweet and woody.", "image": "ws-cinnamon.png" }
+      ]
     },
     {
-      "id": "blend-berbere",
-      "name": "Berbere",
-      "description": "Warm, complex Ethiopian-inspired blend with fenugreek, cardamom, and chili. Ideal for stews and lentils.",
-      "image": "berbere.jpg"
+      "id": "powdered-spices",
+      "name": "Powdered Spices",
+      "items": [
+        { "id": "ps1", "name": "Chilli", "desc": "Vibrant red powder with balanced heat.", "image": "ps-chilli.png" },
+        { "id": "ps2", "name": "Turmeric", "desc": "Golden powder with high curcumin content.", "image": "ps-turmeric.svg" },
+        { "id": "ps3", "name": "Cinnamon Powder", "desc": "Finely ground for baking and desserts.", "image": "ps-cinnamon.svg" },
+        { "id": "ps4", "name": "Coriander", "desc": "Earthly and citrusy ground corridor.", "image": "ps-coriander.svg" },
+        { "id": "ps5", "name": "Black Pepper", "desc": "Freshly ground for a sharp, spicy bite.", "image": "ps-pepper.svg" }
+      ]
     },
     {
-      "id": "blend-zaatar",
-      "name": "Za'atar",
-      "description": "Toasted sesame, sumac, and wild thyme. Drizzle with olive oil and spread on flatbread or roasted roots.",
-      "image": "zaatar.jpg"
+      "id": "masala-powder",
+      "name": "Masala Powder",
+      "items": [
+        { "id": "mp1", "name": "Garam Masala", "desc": "Traditional blend of aromatic warming spices.", "image": "mp-garam.svg" },
+        { "id": "mp2", "name": "Chicken Masala", "desc": "Perfectly balanced for rich poultry dishes.", "image": "mp-chicken.svg" },
+        { "id": "mp3", "name": "Meat Masala", "desc": "Robust blend for deep, savory meat curries.", "image": "mp-meat.svg" },
+        { "id": "mp4", "name": "Sambar Powder", "desc": "Authentic South Indian lentil stew mix.", "image": "mp-sambar.svg" },
+        { "id": "mp5", "name": "Chat Masala", "desc": "Tangy and salty punch for street food.", "image": "mp-chat.svg" }
+      ]
     },
     {
-      "id": "blend-garam",
-      "name": "Garam Masala",
-      "description": "Freshly ground cinnamon, clove, and black cardamom. The soul of countless curries and chai.",
-      "image": "garam-masala.jpg"
-    }
-  ],
-  "usp": [
-    {
-      "icon": "🌿",
-      "title": "100% Organic",
-      "description": "Sourced from certified organic farms. No pesticides, no compromise."
+      "id": "dehydrated-veg",
+      "name": "Dehydrated Vegetable / Fruits",
+      "items": [
+        { "id": "dv1", "name": "Potato", "desc": "Sliced and dried, ready for quick cooking.", "image": "dv-potato.svg" },
+        { "id": "dv2", "name": "Beans", "desc": "Cross-cut green beans with preserved crunch.", "image": "dv-beans.svg" },
+        { "id": "dv3", "name": "Onion", "desc": "Savory onion flakes, no tears required.", "image": "dv-onion.svg" },
+        { "id": "dv4", "name": "Garlic", "desc": "Potent garlic slices for instant flavor.", "image": "dv-garlic.svg" },
+        { "id": "dv5", "name": "Capsicum", "desc": "Vibrant bell pepper bites for salads/sides.", "image": "dv-capsicum.svg" }
+      ]
     },
     {
-      "icon": "✋",
-      "title": "Hand-Packed",
-      "description": "Every jar is filled and sealed by hand in our workshop for maximum freshness."
+      "id": "sprayed-items",
+      "name": "Sprayed Items",
+      "items": [
+        { "id": "si1", "name": "Apple", "desc": "Concentrated apple powder for natural sweetness.", "image": "si-apple.svg" },
+        { "id": "si2", "name": "Mango", "desc": "Tropical Alphonso mango in instant powder form.", "image": "si-mango.svg" },
+        { "id": "si3", "name": "Watermelon", "desc": "Refreshing watermelon essence for drinks.", "image": "si-watermelon.svg" },
+        { "id": "si4", "name": "Tomato", "desc": "Zesty tomato powder for soups and sauces.", "image": "si-tomato.svg" },
+        { "id": "si5", "name": "Carrot", "desc": "Beta-carotene rich carrot powder.", "image": "si-carrot.svg" }
+      ]
     },
     {
-      "icon": "🌍",
-      "title": "Direct from Growers",
-      "description": "We work directly with farmers — fair prices for them, better flavour for you."
-    },
-    {
-      "icon": "📦",
-      "title": "Plastic-Free Packaging",
-      "description": "Recyclable glass jars and compostable labels. Good for the planet, not just the palate."
+      "id": "whole-herbs",
+      "name": "Whole Herbs",
+      "items": [
+        { "id": "wh1", "name": "Rosemary", "desc": "Pine-like fragrant needles for roasting.", "image": "wh-rosemary.svg" },
+        { "id": "wh2", "name": "Oregano", "desc": "Classic Mediterranean herb for pizza/pasta.", "image": "wh-oregano.svg" },
+        { "id": "wh3", "name": "Thyme", "desc": "Small, potent leaves for savory depth.", "image": "wh-thyme.svg" },
+        { "id": "wh4", "name": "Parsley", "desc": "Fresh-tasting dried parsley for garnishing.", "image": "wh-parsley.svg" },
+        { "id": "wh5", "name": "Lemon Grass", "desc": "Citrusy stalks for teas and infusions.", "image": "wh-lemongrass.svg" }
+      ]
     }
   ],
   "recipes": [
-    { "name": "Roasted Roots with Za'atar", "image": "recipe-roots.jpg" },
-    { "name": "Berbere Lentil Soup", "image": "recipe-lentil.jpg" },
-    { "name": "Grilled Chicken & Signature Blend", "image": "recipe-chicken.jpg" },
-    { "name": "Garam Masala Chai", "image": "recipe-chai.jpg" },
-    { "name": "Mediterranean Flatbread", "image": "recipe-flatbread.jpg" }
+    { "name": "Cardamom Spiced Chai", "image": "recipe-ws.svg" },
+    { "name": "Golden Turmeric Latte", "image": "recipe-ps.svg" },
+    { "name": "Staff-Style Chicken Curry", "image": "recipe-mp.svg" },
+    { "name": "Garlic Infused Potato Roast", "image": "recipe-dv.svg" },
+    { "name": "Instant Mango Smoothie", "image": "recipe-si.svg" },
+    { "name": "Herb Roasted Root Vegetables", "image": "recipe-wh.svg" }
   ],
-  "testimonials": [
-    {
-      "quote": "I've never tasted spices this fresh. The Berbere transformed my weekly lentil soup into something I actually look forward to.",
-      "author": "Maya Chen",
-      "location": "Toronto"
-    },
-    {
-      "quote": "Finally, a company that cares about where their spices come from. The packaging is beautiful and the flavour is unmatched.",
-      "author": "James Okonkwo",
-      "location": "London"
-    },
-    {
-      "quote": "Wild Thyme's Signature Blend is now a permanent fixture on our grill. Our guests always ask what we use.",
-      "author": "Elena Vasquez",
-      "location": "Barcelona"
-    }
-  ],
-  "newsletter": {
-    "heading": "Join the Flavour Journey",
-    "body": "Get recipes, farm stories, and early access to new blends. No spam — just good taste.",
-    "placeholder": "Your email address"
+  "staffContact": {
+    "heading": "Connect with Our Staff",
+    "subtext": "Have questions about our sourcing or need bulk orders? Our team is directly available for you.",
+    "phone": "+1 (555) 987-6543",
+    "email": "staff@wildthymespice.com",
+    "facebook": "https://facebook.com/wildthymespice",
+    "hours": "Mon - Fri, 9am - 6pm EST"
   },
   "footer": {
     "tagline": "Handcrafted Spices, Farm to Jar",
@@ -101,16 +108,6 @@
       { "label": "Our Story", "href": "#story" },
       { "label": "Recipes", "href": "#recipes" },
       { "label": "Contact", "href": "#contact" }
-    ],
-    "contact": {
-      "email": "hello@wildthymespice.com",
-      "phone": "+1 (555) 123-4567",
-      "address": "123 Mill Lane, Countryside, CO 80123"
-    },
-    "social": [
-      { "label": "Instagram", "href": "https://instagram.com", "icon": "instagram" },
-      { "label": "Pinterest", "href": "https://pinterest.com", "icon": "pinterest" },
-      { "label": "Facebook", "href": "https://facebook.com", "icon": "facebook" }
     ],
     "copyright": "© 2025 Wild Thyme Spice Co. All rights reserved."
   }
