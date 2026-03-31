@@ -274,9 +274,9 @@ main {
 }
 
 .logo img {
-  width: min(160px, 42vw);
-  max-width: 160px;
-  height: auto;
+  width: min(110px, 25vw);
+  max-width: 110px;
+  height: auto;  
 }
 
 .nav-list {
